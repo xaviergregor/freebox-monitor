@@ -60,8 +60,8 @@ chmod +x start.sh
 
 Ou manuellement :
 ```bash
-docker-compose build
-docker-compose up -d
+docker compose build
+docker compose up -d
 ```
 
 3. **Autoriser l'application**
@@ -86,8 +86,6 @@ Le token d'authentification sera automatiquement sauvegardé dans `/app/data/fre
 ### docker-compose.yml
 
 ```yaml
-version: '3.8'
-
 services:
   freebox-monitor:
     build: .
@@ -134,7 +132,7 @@ PORT = 5000
     "firmware_version": "4.9.12"
   },
   "connection": {
-    "ipv4": "82.66.236.129",
+    "ipv4": "12.34.56.78",
     "rate_down": 76245,
     "rate_up": 25148
   },
@@ -202,17 +200,17 @@ docker run -d \
 ### L'interface ne charge pas
 ```bash
 # Vérifier les logs
-docker-compose logs -f
+docker compose logs -f
 
 # Redémarrer le conteneur
-docker-compose restart
+docker compose restart
 ```
 
 ### Erreur d'autorisation
 ```bash
 # Réinitialiser le token
 rm data/freebox_token.json
-docker-compose restart
+docker compose restart
 
 # Appuyer sur ► sur la Freebox dans les 2 minutes
 ```
