@@ -37,6 +37,8 @@ Tableau de bord moderne et complet pour le monitoring de votre Freebox en temps 
 - **Actualisation automatique** : Toutes les 5 secondes
 - **Responsive** : Compatible mobile, tablette et desktop
 
+![Texte alternatif](screen.png)
+
 ## 🐳 Installation avec Docker
 
 ### Prérequis
