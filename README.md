@@ -9,7 +9,7 @@ Tableau de bord moderne et complet pour le monitoring de votre Freebox en temps 
 ## ✨ Fonctionnalités
 
 ### 📊 Monitoring en temps réel
-- **Débits** : Graphiques en temps réel du débit descendant et montant
+- **Débits** : En temps réel du débit descendant et montant
 - **Température** : Surveillance de la température moyenne (CPU + HDD)
 - **Uptime** : Temps de fonctionnement depuis le dernier redémarrage
 - **Appareils connectés** : Nombre d'appareils actifs sur le réseau
