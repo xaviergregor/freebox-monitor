@@ -10,8 +10,8 @@ services:
       - TZ=Europe/Paris
       - PYTHONUNBUFFERED=1
     labels:
-      - "com.xgr.application=freebox-monitor"
-      - "com.xgr.description=Freebox Monitoring System"
+      - "com.application=freebox-monitor"
+      - "com.description=Freebox Monitoring System"
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:5000/"]
       interval: 30s
